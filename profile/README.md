@@ -7,13 +7,25 @@ learning experience on the ARM64 architecture, writing device drivers,
 and what it takes to port arm64 based platforms to Linux.
 
 ## TODO
+- [ ] Create minimal U-Boot Image
+  - [ ] Create minimal DTS for RK3588 SoC
+    - [ ] Add CPUs
+    - [ ] Add Timer Device
+    - [ ] Add Interrupt Controller Device
+    - [ ] Add SDMMC Device
+    - [ ] Add UART Device
+  - [ ] Implement RK3588 Drivers
+    - [ ] Write UART Driver
+    - [ ] Write SDMMC Driver
+
 - [ ] Create minimal Linux Image
   - [ ] Create minimal DTS for RK3588 SoC
-  - [ ] Write essential drivers in order to boot U-Boot and Linux
+    - [ ] Add CPUs
+    - [ ] Add Timer Device
+    - [ ] Add Interrupt Controller Device
+    - [ ] Add UART Device
+  - [ ] Implement RK3588 Drivers
     - [ ] Write UART driver
-    - [ ] Write interrupt controller driver (if necessary)
-  - [ ] Create minimal U-Boot image
-  - [ ] Create minimal Linux kernel image
 
 - [ ] Write RK3588 Linux Drivers / Expand DTS
   - [ ] Write GPIO Driver
