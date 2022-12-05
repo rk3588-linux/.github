@@ -17,6 +17,8 @@ and what it takes to port arm64 based platforms to Linux.
   - [ ] Implement RK3588 Drivers
     - [ ] Write UART Driver
     - [ ] Write SDMMC Driver
+  - [ ] Implement RK3588 SoC Arch bring up
+  - [ ] Implement RK3588 defconfig
 -----
 - [ ] Create minimal Linux Image
   - [ ] Create minimal DTS for RK3588 SoC
